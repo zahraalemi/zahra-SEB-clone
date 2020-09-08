@@ -1,0 +1,39 @@
+@import 'https://designlibrary.sebgroup.com/visual-identity/typography/sebgroup/vanilla/src/defaults';
+
+:root{
+    --primary-color: #333333;
+    --secondary-color: #ffffff;
+    --blue-color: #0092e1;
+    --green-color: #1ED760;
+}
+/* General Reset and Settings */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "SEBSansSerif",Arial,sans-serif;
+    font-weight: 0.9rem;
+    background: #eee;
+}
+
+h1,h2,h3,h4{
+    line-height: 1.2;
+}
+
+p{
+    line-height: 1.3;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}

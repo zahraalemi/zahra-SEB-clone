@@ -1,0 +1,269 @@
+
+/* .header-container{
+    
+} */
+.header-container{
+    background-color: var(--secondary-color);
+}
+.header-content{
+    display: flex;
+    width: 100%;
+    
+}
+.mainmenu{
+    display: flex;
+}
+.mainmenu-box{
+    vertical-align: middle;
+    align-self: center;
+}
+.mainmenu-box-container{
+    display: flex;
+    margin: 0 0 0 .75rem; 
+}
+
+.logo{
+    width: 95px;
+}
+
+.mainmenu-box{
+    flex: 1;
+    align-items: center;
+}
+.mainmenu-item{
+    padding: 0 15px; 
+    color: var(--primary-color);
+    
+}
+.mainmenu-box a:hover{
+   border-bottom: 2px solid;
+}
+
+.mainmenu-box :visited{
+    color: var(--primary-color);
+}
+
+.accessibility{
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.access-menu{
+    display: flex;
+    
+}
+
+.acess-menu-item{
+    padding: 0 15px;
+}
+
+.acess-menu-item a{
+    color: var(--primary-color);
+}
+
+.acess-menu-item a:hover{
+    
+    background: gray;
+}
+
+.btn-top a{
+    background: var(--blue-color);
+    color: var(--secondary-color);
+    padding:20px 20px;
+    border-radius: 5px;
+}
+
+
+.btn-top a:hover{
+    color: var(--secondary-color);
+    padding:20px 20px;
+    border-radius: 5px;
+}
+.slide{
+    position: relative;
+}
+.slide-content{
+    background: url(/img/slide.jpg) center center;
+    min-height: calc(90vh - 6rem);
+}
+
+.slide-text{
+    position: absolute;
+    padding: 3.5rem 8rem;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.slide-text h1{
+    font-size: 4rem;
+}
+
+.paragraph-text{
+    padding: 60px 0;
+}
+.bottommenu{
+    background: #1a1a1a;
+}
+.bottom-menu-box{
+    display: flex;
+    padding: 0 130px;
+}
+.bottom-menu-item{
+    padding: 35px 50px 35px 0px;
+}
+
+.bottom-menu-item a{
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+.bottom-menu-item a:hover{
+    border-bottom: 2px solid;
+}
+
+.bottom-page-container{
+    padding: 0 130px;
+}
+
+.statistics-content{
+    display: flex;
+    padding: 40px 0 20px 0;
+    border-bottom: 1px solid #a5a5a5;
+    margin-bottom: 40px;
+}
+.statistics-box{
+    
+    margin-right: 5rem;
+}
+.statistics-box-end{
+    
+    margin-left: 3rem;
+}
+
+.statistics-label a{
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.statistics-rate{
+    font-size: 2.5rem;
+}
+.description-container{
+    background: var(--secondary-color);
+    display: flex;
+}
+.description-text{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.description-text h2{
+    padding-bottom: 1rem;
+    font-size: 35px;
+}
+.description-text p{
+    font-size: 18px;
+}
+.description-link{
+    color: var(--primary-color);
+}
+
+.description-link:hover{
+    text-decoration: underline;
+}
+
+.full-picture-box-container{
+    position: relative;
+    background: url(/img/seb-talks-promo.jpg);
+    height: 590px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.full-picture-box-text{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-sizing: border-box;
+    height: 50%;
+    min-width: 50%;
+    max-width: 590px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.full-picture-link a{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--secondary-color);
+}
+.full-picture-link a:visited{
+    color: var(--secondary-color);
+}
+
+.full-picture-link a:hover{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+.space{
+    height: 30px;
+}
+
+.full-picture-box2-container{
+    position: relative;
+    background: url(/img/box2.jpg);
+    height: 590px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.full-picture-box2-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    box-sizing: border-box;
+    height: 50%;
+    min-width: 50%;
+    max-width: 590px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.kund-service a{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 0.7rem;
+    padding: 15px 10px;
+    margin: 15px;
+    color: var(--secondary-color);
+    border-radius: 50%;
+    background: var(--green-color);
+    text-align: center;
+}
+
+.kund-service a:hover{
+    font-size: 0.7rem;
+    padding: 17px 12px;
+
+}
