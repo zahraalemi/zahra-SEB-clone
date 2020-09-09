@@ -246,7 +246,45 @@
 
 
 
+.footer-container{
+    border-top: 2px solid #a5a5a5;
+    padding: 30px 130px;
+}
+.footer-top-box{
+    display: flex;
+    justify-content: space-between;
 
+}
+ .footer-top-item dd{
+    font-size: 1.3rem;
+} 
+
+.footer-top-item dt{
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+.footer-top-item a{
+    color: #0062bc;
+}
+.footer-top-item a:hover{
+    text-decoration: underline;
+}
+.footer-middle-box{
+    display: flex;
+    padding: 40px 0 20px 0;
+}
+.social-media{
+    display: flex;
+}
+
+.social-media a{
+    color: #adadad;
+    font-size: 1.5rem;
+    margin-right: 30px;
+}
+.social-media a:hover{
+    color: #5298da;
+}
 
 
 .kund-service a{
